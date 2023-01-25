@@ -1,0 +1,35 @@
+[INFO, 2023-01-25 11:43:02.959274]: Pipeline run started. The log file was opened here: C:\Joshua\MATHWORKS-Project\t1\PipelineResults\LogFile.txt.
+[INFO, 2023-01-25 11:43:02.972820]: Pipeline compilation started.
+[INFO, 2023-01-25 11:43:03.002500]: Block 'load' compilation started.
+[INFO, 2023-01-25 11:43:03.016142]: Block 'load' compilation succeeded.
+[INFO, 2023-01-25 11:43:03.026425]: Block 'Process' compilation started.
+[INFO, 2023-01-25 11:43:03.040053]: Block 'Process' compilation succeeded.
+[INFO, 2023-01-25 11:43:03.049456]: Block 'Plot' compilation started.
+[INFO, 2023-01-25 11:43:03.062975]: Block 'Plot' compilation succeeded.
+[INFO, 2023-01-25 11:43:03.072752]: Pipeline compilation succeeded.
+[DEBUG, 2023-01-25 11:43:03.081546]: Parallel pool check started.
+[INFO, 2023-01-25 11:43:03.091859]: Found 3 blocks to run.
+[DEBUG, 2023-01-25 11:43:03.100685]: 
+  Input struct: 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with no fields.
+
+
+[DEBUG, 2023-01-25 11:43:03.109946]: 
+  Run options: 
+         UseParallel: 0
+        DisplayLevel: Off
+             RunMode: Minimal
+    ResultsDirectory: "PipelineResults"
+                From: [1×0 string]
+                  To: [1×0 string]
+                Only: [1×0 string]
+         SaveResults: "-all"
+
+
+[INFO, 2023-01-25 11:43:03.149517]: Block 'load' is skipped because its results are up-to-date.
+[INFO, 2023-01-25 11:43:03.206240]: All block 'load' runs succeeded and outputs are merged.
+[INFO, 2023-01-25 11:43:03.292711]: Block 'Process' is skipped because its results are up-to-date.
+[INFO, 2023-01-25 11:43:03.350784]: All block 'Process' runs succeeded and outputs are merged.
+[INFO, 2023-01-25 11:43:03.438603]: Block 'Plot' is skipped because its results are up-to-date.
+[INFO, 2023-01-25 11:43:03.493412]: All block 'Plot' runs succeeded and outputs are merged.
+[INFO, 2023-01-25 11:43:03.558248]: Pipeline run succeeded.

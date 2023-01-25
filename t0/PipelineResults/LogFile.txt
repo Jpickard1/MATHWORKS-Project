@@ -1,0 +1,27 @@
+[INFO, 2023-01-16 11:11:11.438723]: Pipeline run started. The log file was opened here: C:\Joshua\MATHWORKS-Project\PipelineResults\LogFile.txt.
+[INFO, 2023-01-16 11:11:11.452075]: Pipeline compilation started.
+[INFO, 2023-01-16 11:11:11.473530]: Block 'UserFunction_1' compilation started.
+[INFO, 2023-01-16 11:11:11.487200]: Block 'UserFunction_1' compilation succeeded.
+[INFO, 2023-01-16 11:11:11.496875]: Pipeline compilation succeeded.
+[DEBUG, 2023-01-16 11:11:11.505877]: Parallel pool check started.
+[INFO, 2023-01-16 11:11:11.515663]: Found 1 blocks to run.
+[DEBUG, 2023-01-16 11:11:11.524918]: 
+  Input struct: 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with no fields.
+
+
+[DEBUG, 2023-01-16 11:11:11.534854]: 
+  Run options: 
+         UseParallel: 0
+        DisplayLevel: Off
+             RunMode: Minimal
+    ResultsDirectory: "PipelineResults"
+                From: [1×0 string]
+                  To: [1×0 string]
+                Only: [1×0 string]
+         SaveResults: "-all"
+
+
+[INFO, 2023-01-16 11:11:11.576454]: Block 'UserFunction_1' is skipped because its results are up-to-date.
+[INFO, 2023-01-16 11:11:11.640210]: All block 'UserFunction_1' runs succeeded and outputs are merged.
+[INFO, 2023-01-16 11:11:11.722652]: Pipeline run succeeded.
