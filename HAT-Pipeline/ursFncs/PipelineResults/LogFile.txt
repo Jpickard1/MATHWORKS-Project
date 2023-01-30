@@ -1,0 +1,19 @@
+[INFO, 2023-01-29 15:08:44.671443]: Pipeline run started. The log file was opened here: C:\Users\picka\Documents\my_projects\DBTM\MATHWORKS-Project\HAT-Pipeline\ursFncs\PipelineResults\LogFile.txt.
+[INFO, 2023-01-29 15:08:44.702251]: Pipeline compilation started.
+[INFO, 2023-01-29 15:08:44.787821]: Block 'UserFunction_1' compilation started.
+[INFO, 2023-01-29 15:08:44.846737]: Block 'UserFunction_1' compilation succeeded.
+[INFO, 2023-01-29 15:08:44.853949]: Block 'UserFunction_2' compilation started.
+[ERROR, 2023-01-29 15:08:44.889178]: Block 'UserFunction_2' has one or more required ports that are not connected or passed in as the pipeline inputs.
+[INFO, 2023-01-29 15:08:44.909534]: Block 'UserFunction_3' compilation started.
+[ERROR, 2023-01-29 15:08:44.929710]: Block 'UserFunction_3' has one or more required ports that are not connected or passed in as the pipeline inputs.
+[INFO, 2023-01-29 15:08:44.941835]: Block 'UserFunction_4' compilation started.
+[ERROR, 2023-01-29 15:08:44.958854]: Block 'UserFunction_4' has one or more required ports that are not connected or passed in as the pipeline inputs.
+[INFO, 2023-01-29 15:08:44.971145]: Block 'UserFunction_5' compilation started.
+[ERROR, 2023-01-29 15:08:44.988891]: Block 'UserFunction_5' has one or more required ports that are not connected or passed in as the pipeline inputs.
+[INFO, 2023-01-29 15:08:44.999490]: Block 'UserFunction_6' compilation started.
+[ERROR, 2023-01-29 15:08:45.019195]: Block 'UserFunction_6' has one or more required ports that are not connected or passed in as the pipeline inputs.
+[INFO, 2023-01-29 15:08:45.030902]: Block 'UserFunction_7' compilation started.
+[ERROR, 2023-01-29 15:08:45.046795]: Block 'UserFunction_7' has one or more required ports that are not connected or passed in as the pipeline inputs.
+[INFO, 2023-01-29 15:08:45.057493]: Block 'UserFunction_8' compilation started.
+[INFO, 2023-01-29 15:08:45.078646]: Block 'UserFunction_8' compilation succeeded.
+[ERROR, 2023-01-29 15:08:45.090869]: Pipeline compilation failed with the following reason.

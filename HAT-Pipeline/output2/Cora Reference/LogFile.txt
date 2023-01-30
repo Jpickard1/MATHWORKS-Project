@@ -1,0 +1,70 @@
+[INFO, 2023-01-29 16:02:04.908260]: Pipeline run started. The log file was opened here: C:\Users\picka\Documents\my_projects\DBTM\MATHWORKS-Project\HAT-Pipeline\output2\Cora Reference\LogFile.txt.
+[INFO, 2023-01-29 16:02:04.938663]: Pipeline compilation started.
+[INFO, 2023-01-29 16:02:04.945978]: Block 'UserFunction_1' compilation started.
+[INFO, 2023-01-29 16:02:04.982325]: Block 'UserFunction_1' compilation succeeded.
+[INFO, 2023-01-29 16:02:04.987795]: Block 'UserFunction_2' compilation started.
+[INFO, 2023-01-29 16:02:04.999325]: Block 'UserFunction_2' compilation succeeded.
+[INFO, 2023-01-29 16:02:05.003741]: Block 'UserFunction_3' compilation started.
+[INFO, 2023-01-29 16:02:05.011061]: Block 'UserFunction_3' compilation succeeded.
+[INFO, 2023-01-29 16:02:05.016921]: Block 'UserFunction_4' compilation started.
+[INFO, 2023-01-29 16:02:05.024104]: Block 'UserFunction_4' compilation succeeded.
+[INFO, 2023-01-29 16:02:05.028174]: Block 'UserFunction_5' compilation started.
+[INFO, 2023-01-29 16:02:05.034980]: Block 'UserFunction_5' compilation succeeded.
+[INFO, 2023-01-29 16:02:05.039468]: Block 'UserFunction_6' compilation started.
+[INFO, 2023-01-29 16:02:05.046314]: Block 'UserFunction_6' compilation succeeded.
+[INFO, 2023-01-29 16:02:05.050358]: Block 'UserFunction_7' compilation started.
+[INFO, 2023-01-29 16:02:05.057887]: Block 'UserFunction_7' compilation succeeded.
+[INFO, 2023-01-29 16:02:05.061954]: Block 'UserFunction_8' compilation started.
+[INFO, 2023-01-29 16:02:05.072696]: Block 'UserFunction_8' compilation succeeded.
+[INFO, 2023-01-29 16:02:05.076851]: Pipeline compilation succeeded.
+[DEBUG, 2023-01-29 16:02:05.082184]: Parallel pool check started.
+[INFO, 2023-01-29 16:02:05.205204]: Any previous results of blocks to be rerun have been cleared.
+[INFO, 2023-01-29 16:02:05.212877]: Found 8 blocks to run.
+[DEBUG, 2023-01-29 16:02:05.217336]: 
+  Input struct: 
+        ds: "Cora Reference"
+      itrs: 5
+    trials: 2
+         k: 0.1000
+        B0: 0
+        B1: 1
+        B2: 2
+
+
+[DEBUG, 2023-01-29 16:02:05.222269]: 
+  Run options: 
+         UseParallel: 0
+        DisplayLevel: Info
+             RunMode: Minimal
+    ResultsDirectory: "output2/Cora Reference/"
+                From: [1×0 string]
+                  To: [1×0 string]
+                Only: [1×0 string]
+         SaveResults: "-all"
+
+
+[INFO, 2023-01-29 16:02:05.335508]: Block 'UserFunction_1' is skipped because its results are up-to-date.
+[INFO, 2023-01-29 16:02:05.343762]: All block 'UserFunction_1' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:02:05.372802]: Block 'UserFunction_2' is skipped because its results are up-to-date.
+[INFO, 2023-01-29 16:02:05.378968]: All block 'UserFunction_2' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:02:05.429785]: Block 'UserFunction_3' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:02:05.435674]: Collecting inputs for UserFunction_3.
+[DEBUG, 2023-01-29 16:02:05.453848]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:02:05.486586]: Block 'UserFunction_3' run 1 of 1 started.
+[ERROR, 2023-01-29 16:02:05.539337]: Dimensions of arrays being concatenated are not consistent.
+[INFO, 2023-01-29 16:02:05.553274]: All block 'UserFunction_3' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:02:05.583781]: Block 'UserFunction_4' is skipped because its results are up-to-date.
+[INFO, 2023-01-29 16:02:05.589681]: All block 'UserFunction_4' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:02:05.652747]: Block 'UserFunction_5' is skipped because its results are up-to-date.
+[INFO, 2023-01-29 16:02:05.658178]: All block 'UserFunction_5' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:02:05.727376]: Block 'UserFunction_6' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:02:05.731796]: Collecting inputs for UserFunction_6.
+[DEBUG, 2023-01-29 16:02:05.738652]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:02:05.760358]: Block 'UserFunction_6' run 1 of 1 started.
+[ERROR, 2023-01-29 16:02:05.783829]: Dimensions of arrays being concatenated are not consistent.
+[INFO, 2023-01-29 16:02:05.794826]: All block 'UserFunction_6' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:02:05.827542]: Block 'UserFunction_7' is skipped because its results are up-to-date.
+[INFO, 2023-01-29 16:02:05.832755]: All block 'UserFunction_7' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:02:05.891998]: Block 'UserFunction_8' is skipped because one or more predecessor blocks did not produce results.
+[INFO, 2023-01-29 16:02:05.897315]: All block 'UserFunction_8' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:02:05.908553]: Pipeline run succeeded.

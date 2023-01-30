@@ -1,0 +1,74 @@
+[INFO, 2023-01-29 15:46:00.990027]: Pipeline run started. The log file was opened here: C:\Users\picka\Documents\my_projects\DBTM\MATHWORKS-Project\HAT-Pipeline\output1\Cora Reference\LogFile.txt.
+[INFO, 2023-01-29 15:46:01.069972]: Pipeline compilation started.
+[INFO, 2023-01-29 15:46:01.104865]: Block 'UserFunction_1' compilation started.
+[INFO, 2023-01-29 15:46:01.162071]: Block 'UserFunction_1' compilation succeeded.
+[INFO, 2023-01-29 15:46:01.187832]: Block 'UserFunction_2' compilation started.
+[INFO, 2023-01-29 15:46:01.263159]: Block 'UserFunction_2' compilation succeeded.
+[INFO, 2023-01-29 15:46:01.269703]: Block 'UserFunction_3' compilation started.
+[INFO, 2023-01-29 15:46:01.287056]: Block 'UserFunction_3' compilation succeeded.
+[INFO, 2023-01-29 15:46:01.292478]: Block 'UserFunction_4' compilation started.
+[INFO, 2023-01-29 15:46:01.309818]: Block 'UserFunction_4' compilation succeeded.
+[INFO, 2023-01-29 15:46:01.316821]: Block 'UserFunction_5' compilation started.
+[INFO, 2023-01-29 15:46:01.341418]: Block 'UserFunction_5' compilation succeeded.
+[INFO, 2023-01-29 15:46:01.346241]: Block 'UserFunction_6' compilation started.
+[INFO, 2023-01-29 15:46:01.355619]: Block 'UserFunction_6' compilation succeeded.
+[INFO, 2023-01-29 15:46:01.359634]: Block 'UserFunction_7' compilation started.
+[INFO, 2023-01-29 15:46:01.367946]: Block 'UserFunction_7' compilation succeeded.
+[INFO, 2023-01-29 15:46:01.372380]: Block 'UserFunction_8' compilation started.
+[INFO, 2023-01-29 15:46:01.383037]: Block 'UserFunction_8' compilation succeeded.
+[INFO, 2023-01-29 15:46:01.387416]: Pipeline compilation succeeded.
+[DEBUG, 2023-01-29 15:46:01.393846]: Parallel pool check started.
+[INFO, 2023-01-29 15:46:01.463325]: Any previous results of blocks to be rerun have been cleared.
+[INFO, 2023-01-29 15:46:01.471417]: Found 8 blocks to run.
+[DEBUG, 2023-01-29 15:46:01.477666]: 
+  Input struct: 
+        ds: "Cora Reference"
+      itrs: 5
+    trials: 2
+         k: 0.1000
+        B0: 0
+        B1: 1
+        B2: 2
+
+
+[DEBUG, 2023-01-29 15:46:01.483998]: 
+  Run options: 
+         UseParallel: 0
+        DisplayLevel: Info
+             RunMode: Minimal
+    ResultsDirectory: "output1/Cora Reference/"
+                From: [1×0 string]
+                  To: [1×0 string]
+                Only: [1×0 string]
+         SaveResults: "-all"
+
+
+[INFO, 2023-01-29 15:46:01.628030]: Block 'UserFunction_1' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 15:46:01.634711]: Collecting inputs for UserFunction_1.
+[DEBUG, 2023-01-29 15:46:01.679195]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 15:46:01.938806]: Block 'UserFunction_1' run 1 of 1 started.
+[INFO, 2023-01-29 15:46:02.043572]: Block 'UserFunction_1' run 1 of 1 succeeded.
+[INFO, 2023-01-29 15:46:02.121273]: All block 'UserFunction_1' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 15:46:02.169271]: Block 'UserFunction_2' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 15:46:02.175998]: Collecting inputs for UserFunction_2.
+[DEBUG, 2023-01-29 15:46:02.215956]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 15:46:02.286740]: Block 'UserFunction_2' run 1 of 1 started.
+[ERROR, 2023-01-29 15:46:02.746182]: Index exceeds the number of array elements. Index must not exceed 283.
+[INFO, 2023-01-29 15:46:02.775130]: All block 'UserFunction_2' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 15:46:02.809329]: Block 'UserFunction_3' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 15:46:02.814453]: Collecting inputs for UserFunction_3.
+[DEBUG, 2023-01-29 15:46:02.832832]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 15:46:02.867925]: Block 'UserFunction_3' run 1 of 1 started.
+[ERROR, 2023-01-29 15:46:02.982156]: Dimensions of arrays being concatenated are not consistent.
+[INFO, 2023-01-29 15:46:03.007133]: All block 'UserFunction_3' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 15:46:03.037950]: Block 'UserFunction_4' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 15:46:03.042894]: Collecting inputs for UserFunction_4.
+[DEBUG, 2023-01-29 15:46:03.055718]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 15:46:03.087204]: Block 'UserFunction_4' run 1 of 1 started.
+[ERROR, 2023-01-29 15:46:03.496369]: Index exceeds the number of array elements. Index must not exceed 713.
+[INFO, 2023-01-29 15:46:03.509704]: All block 'UserFunction_4' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 15:46:03.541089]: Block 'UserFunction_5' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 15:46:03.548337]: Collecting inputs for UserFunction_5.
+[DEBUG, 2023-01-29 15:46:03.577170]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 15:46:03.637581]: Block 'UserFunction_5' run 1 of 1 started.
+[INFO, 2023-01-29 15:47:52.488123]: Pipeline run cancelled.

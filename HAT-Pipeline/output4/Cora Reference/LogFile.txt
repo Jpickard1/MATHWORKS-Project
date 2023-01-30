@@ -1,0 +1,94 @@
+[INFO, 2023-01-29 16:05:04.936902]: Pipeline run started. The log file was opened here: C:\Users\picka\Documents\my_projects\DBTM\MATHWORKS-Project\HAT-Pipeline\output4\Cora Reference\LogFile.txt.
+[INFO, 2023-01-29 16:05:04.993951]: Pipeline compilation started.
+[INFO, 2023-01-29 16:05:05.009993]: Block 'UserFunction_1' compilation started.
+[INFO, 2023-01-29 16:05:05.067225]: Block 'UserFunction_1' compilation succeeded.
+[INFO, 2023-01-29 16:05:05.072520]: Block 'UserFunction_2' compilation started.
+[INFO, 2023-01-29 16:05:05.095927]: Block 'UserFunction_2' compilation succeeded.
+[INFO, 2023-01-29 16:05:05.101100]: Block 'UserFunction_3' compilation started.
+[INFO, 2023-01-29 16:05:05.114281]: Block 'UserFunction_3' compilation succeeded.
+[INFO, 2023-01-29 16:05:05.120318]: Block 'UserFunction_4' compilation started.
+[INFO, 2023-01-29 16:05:05.128190]: Block 'UserFunction_4' compilation succeeded.
+[INFO, 2023-01-29 16:05:05.132270]: Block 'UserFunction_5' compilation started.
+[INFO, 2023-01-29 16:05:05.141234]: Block 'UserFunction_5' compilation succeeded.
+[INFO, 2023-01-29 16:05:05.145436]: Block 'UserFunction_6' compilation started.
+[INFO, 2023-01-29 16:05:05.154473]: Block 'UserFunction_6' compilation succeeded.
+[INFO, 2023-01-29 16:05:05.159575]: Block 'UserFunction_7' compilation started.
+[INFO, 2023-01-29 16:05:05.168354]: Block 'UserFunction_7' compilation succeeded.
+[INFO, 2023-01-29 16:05:05.173129]: Block 'UserFunction_8' compilation started.
+[INFO, 2023-01-29 16:05:05.187545]: Block 'UserFunction_8' compilation succeeded.
+[INFO, 2023-01-29 16:05:05.192502]: Pipeline compilation succeeded.
+[DEBUG, 2023-01-29 16:05:05.201879]: Parallel pool check started.
+[INFO, 2023-01-29 16:05:05.264244]: Any previous results of blocks to be rerun have been cleared.
+[INFO, 2023-01-29 16:05:05.272700]: Found 8 blocks to run.
+[DEBUG, 2023-01-29 16:05:05.278424]: 
+  Input struct: 
+        ds: "Cora Reference"
+      itrs: 5
+    trials: 2
+         k: 0.1000
+        B0: 0
+        B1: 1
+        B2: 2
+
+
+[DEBUG, 2023-01-29 16:05:05.283668]: 
+  Run options: 
+         UseParallel: 0
+        DisplayLevel: Info
+             RunMode: Minimal
+    ResultsDirectory: "output4/Cora Reference/"
+                From: [1×0 string]
+                  To: [1×0 string]
+                Only: [1×0 string]
+         SaveResults: "-all"
+
+
+[INFO, 2023-01-29 16:05:05.429714]: Block 'UserFunction_1' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:05:05.437380]: Collecting inputs for UserFunction_1.
+[DEBUG, 2023-01-29 16:05:05.482012]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:05:05.590640]: Block 'UserFunction_1' run 1 of 1 started.
+[INFO, 2023-01-29 16:05:05.654178]: Block 'UserFunction_1' run 1 of 1 succeeded.
+[INFO, 2023-01-29 16:05:05.704928]: All block 'UserFunction_1' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:05:05.741483]: Block 'UserFunction_2' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:05:05.746553]: Collecting inputs for UserFunction_2.
+[DEBUG, 2023-01-29 16:05:05.772765]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:05:05.802243]: Block 'UserFunction_2' run 1 of 1 started.
+[INFO, 2023-01-29 16:05:16.573564]: Block 'UserFunction_2' run 1 of 1 succeeded.
+[INFO, 2023-01-29 16:05:16.581949]: All block 'UserFunction_2' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:05:16.644587]: Block 'UserFunction_3' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:05:16.648870]: Collecting inputs for UserFunction_3.
+[DEBUG, 2023-01-29 16:05:16.657939]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:05:16.680656]: Block 'UserFunction_3' run 1 of 1 started.
+[INFO, 2023-01-29 16:05:19.359858]: Block 'UserFunction_3' run 1 of 1 succeeded.
+[INFO, 2023-01-29 16:05:19.366825]: All block 'UserFunction_3' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:05:19.423186]: Block 'UserFunction_4' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:05:19.427983]: Collecting inputs for UserFunction_4.
+[DEBUG, 2023-01-29 16:05:19.437810]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:05:19.462803]: Block 'UserFunction_4' run 1 of 1 started.
+[INFO, 2023-01-29 16:05:22.812707]: Block 'UserFunction_4' run 1 of 1 succeeded.
+[INFO, 2023-01-29 16:05:22.820093]: All block 'UserFunction_4' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:05:22.877195]: Block 'UserFunction_5' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:05:22.881994]: Collecting inputs for UserFunction_5.
+[DEBUG, 2023-01-29 16:05:22.890611]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:05:22.920998]: Block 'UserFunction_5' run 1 of 1 started.
+[INFO, 2023-01-29 16:05:27.959244]: Block 'UserFunction_5' run 1 of 1 succeeded.
+[INFO, 2023-01-29 16:05:27.966017]: All block 'UserFunction_5' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:05:28.036950]: Block 'UserFunction_6' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:05:28.041285]: Collecting inputs for UserFunction_6.
+[DEBUG, 2023-01-29 16:05:28.048292]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:05:28.068990]: Block 'UserFunction_6' run 1 of 1 started.
+[INFO, 2023-01-29 16:05:28.186175]: Block 'UserFunction_6' run 1 of 1 succeeded.
+[INFO, 2023-01-29 16:05:28.193265]: All block 'UserFunction_6' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:05:28.265189]: Block 'UserFunction_7' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:05:28.269310]: Collecting inputs for UserFunction_7.
+[DEBUG, 2023-01-29 16:05:28.276226]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:05:28.297046]: Block 'UserFunction_7' run 1 of 1 started.
+[INFO, 2023-01-29 16:05:31.941784]: Block 'UserFunction_7' run 1 of 1 succeeded.
+[INFO, 2023-01-29 16:05:31.948005]: All block 'UserFunction_7' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:05:32.013049]: Block 'UserFunction_8' is queued to run because the inputs to the block have changed since the last run.
+[INFO, 2023-01-29 16:05:32.018002]: Collecting inputs for UserFunction_8.
+[DEBUG, 2023-01-29 16:05:32.049079]: Block inputs were successfully split with the following number of processes in each dimension: [1 1]
+[INFO, 2023-01-29 16:05:32.080950]: Block 'UserFunction_8' run 1 of 1 started.
+[INFO, 2023-01-29 16:05:32.343905]: Block 'UserFunction_8' run 1 of 1 succeeded.
+[INFO, 2023-01-29 16:05:32.354789]: All block 'UserFunction_8' runs succeeded and outputs are merged.
+[INFO, 2023-01-29 16:05:32.823870]: Pipeline run succeeded.
