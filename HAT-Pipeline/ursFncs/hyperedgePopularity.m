@@ -1,12 +1,18 @@
-function [pop] = hyperedgePopularity(IM)
+function [pop2] = hyperedgePopularity(IM)
 %HYPEREDGEPOPULARITY Summary of this function goes here
 %   Detailed explanation goes here
+% Auth: Joshua Pickard
+%       jpic@umich.edu
+% Date: January 27, 2023
 
 [v,e] = size(IM);
 vD = sum(IM');
-IMd = repmat(vD',[1, e]);
-IMd(find(IM==0)) = 1;
-pop = prod(IMd,1);
+pop2 = zeros(e,1);
+for i=1:e
+    pop2(i) = prod(vD(find(IM(:,i) ~= 0)));
+end
+
+
 
 end
 
