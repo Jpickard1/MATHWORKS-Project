@@ -1,3 +1,9 @@
+% Auth: Joshua Pickard
+%       jpic@umich.edu
+% Date: January 29, 2023
+
+clear all; close all;
+
 import bioinfo.pipeline.Pipeline
 import bioinfo.pipeline.blocks.*
 
@@ -26,7 +32,7 @@ connect(HGObserver,loadHG,OE2,["HG","HG"]);
 connect(HGObserver,loadHG,OE3,["HG","HG"]);
 
 % Level 3
-collect = UserFunction(@collectSubhypergraphs, RequiredArguments=["OVH","OVN","OVL","OEH","OEN","OEL"],OutputArguments="O");
+collect = UserFunction(@collectSubhypergraphs, RequiredArguments=["ds", "OVH","OVN","OVL","OEH","OEN","OEL"],OutputArguments="O");
 addBlock(HGObserver, collect);
 
 % Connections: Level 2 -- Level 3
@@ -36,6 +42,13 @@ connect(HGObserver,OV3,collect,["OVL","OVL"]);
 connect(HGObserver,OE1,collect,["OEH","OEH"]);
 connect(HGObserver,OE2,collect,["OEN","OEN"]);
 connect(HGObserver,OE3,collect,["OEL","OEL"]);
+
+% Level 4
+tableMaker = UserFunction(@tableMaker, RequiredArguments=["O", "ds", "itrs", "trials", "latex"]);
+addBlock(HGObserver, tableMaker);
+
+% Connections: Level 3 -- Level 4
+connect(HGObserver,collect,tableMaker,["O","O"]);
 
 clearvars -except HGObserver
 % biopipelineDesigner(HGObserver)

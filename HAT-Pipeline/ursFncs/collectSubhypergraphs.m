@@ -1,4 +1,4 @@
-function [O] = collectSubhypergraphs(OVH,OVN,OVL,OEH,OEN,OEL)
+function [O] = collectSubhypergraphs(ds,OVH,OVN,OVL,OEH,OEN,OEL)
 %COLLECT Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -10,7 +10,8 @@ O{4} = OEH;
 O{5} = OEN;
 O{6} = OEL;
 
-save('Observations.mat',"O");
+filename = ds + "_Observations.mat";
+save(filename, "O")
 
 end
 

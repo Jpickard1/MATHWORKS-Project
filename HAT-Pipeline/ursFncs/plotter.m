@@ -9,13 +9,13 @@ function [h] = plotter(O)
 % max d(V) vs |E|
 % avg d(E) vs |E|
 % avg d(V) vs |E|
-mkrs = {'.','*', '^', 'x'};
+mkrs = {'.','*', '^', 'x', 'o', 's'};
 
 numP = 5;
 h = figure;
 subplot(numP,1,1);
 xlabel("Number of Edges"); ylabel("Number of Vertices"); hold on;
-for i=1:4
+for i=1:6
     E = [];
     M = [];
     for j=1:length(O{i})
@@ -29,7 +29,7 @@ end
 set(gca, 'xdir', 'reverse');
 subplot(numP,1,2);
 xlabel("Number of Edges"); ylabel("Avg Vx Degree"); hold on;
-for i=1:4
+for i=1:6
     E = [];
     M = [];
     for j=1:length(O{i})
@@ -44,7 +44,7 @@ end
 set(gca, 'xdir', 'reverse' );
 subplot(numP,1,3);
 xlabel("Number of Edges"); ylabel("Avg E Degree"); hold on;
-for i=1:4
+for i=1:6
     E = [];
     M = [];
     for j=1:length(O{i})
@@ -59,7 +59,7 @@ end
 set(gca, 'xdir', 'reverse' );
 subplot(numP,1,4);
 xlabel("Number of Edges"); ylabel("Max Vx Degree"); hold on;
-for i=1:4
+for i=1:6
     E = [];
     M = [];
     for j=1:length(O{i})
@@ -74,7 +74,7 @@ end
 set(gca, 'xdir', 'reverse' );
 subplot(numP,1,5);
 xlabel("Number of Edges"); ylabel("Max E Degree"); hold on;
-for i=1:4
+for i=1:6
     E = [];
     M = [];
     for j=1:length(O{i})
@@ -92,7 +92,6 @@ set(gca, 'xdir', 'reverse' );
 for i=1:4
     for j=1:length(O{i})
         HG = O{i}{j};
-
     end
 end
 %}

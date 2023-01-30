@@ -43,20 +43,8 @@ end
 
 %% Score Hyperedges
 
-%{
-j = zeros(3,3)
-A = rand(3,3)
-e = 1:3
-p = nchoosek(e,2)
-x = p(:,1)
-y = p(:,2)
-j(x,y) = A(x, y)
-%}
-
-% Loop over all hyperedges
-% tic; 
-
 ss = size(similarity{1});
+
 % parfor i=1:length(H)
 for i=1:length(H)
     e = H{i};
@@ -66,17 +54,8 @@ for i=1:length(H)
     for j=1:nPredictors
         scores(i,j) = sum(similarity{j}(vecP));        
         disp(string(i) + ":" + string(j));
-        %{
-        switch predictors(j)
-            case "CN"
-                s = sum(similarity{j}(vecP));
-            case "AA"
-                s = sum(similarity{j}(vecP));
-        end
-        %}
     end
 end
-% sss = toc;
 
 
 end

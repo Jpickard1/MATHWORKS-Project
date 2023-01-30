@@ -7,7 +7,7 @@ function [pop2] = hyperedgePopularity(IM)
 
 [v,e] = size(IM);
 vD = sum(IM');
-pop2 = zeros(e,1);
+pop2 = zeros(1,e);
 for i=1:e
     pop2(i) = prod(vD(find(IM(:,i) ~= 0)));
 end

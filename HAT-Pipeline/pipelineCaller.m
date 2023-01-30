@@ -2,28 +2,32 @@
 % 2. Export pipeline to P1 matlab variable
 % 3. run this script
 
-DS = {'Cora Reference'}; %, 'Cora Citation'}; %, 'Citeseer Reference', ...
-    % 'Citeseer Citation', 'ArnetMiner Citation', 'Oddysey'};
-
+DS = {'Citeseer Reference', ...
+      'Citeseer Citation', 'ArnetMiner Citation', 'Oddysey'};
+        % 'Cora Reference', 'Cora Citation', 'DBLP',
+        
 for i=1:length(DS)
     % Get data set
     ds = string(DS{i});
 
     % Get pipeline parameters
-    resultsPath = "output6/" + ds + "/";
+    resultsPath = "output2/" + ds + "/";
     disp(resultsPath);
 
     S.ds = ds;
-    S.itrs = 5;
-    S.trials = 2;
-    S.k = 0.1;
+    S.itrs = 3;
+    S.trials = 6;
+    S.k = 0.05;
     S.B0 = 0;
     S.B1 = 1;
     S.B2 = 2;
+    S.latex = 1;
     
     % Call Pipeline
     % Set breakpoint at line 206 in user function if issue
+    tic;
     HGObserver.run(S, 'ResultsDirectory', resultsPath, 'DisplayLevel', 3);
+    tt = toc;
 end
 
 %%

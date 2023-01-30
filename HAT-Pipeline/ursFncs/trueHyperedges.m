@@ -1,4 +1,4 @@
-function [U] = trueHyperedges(HGtrue, Uidx, Vknown)
+function [U] = trueHyperedges(HGtrue, Uidx)
 %TRUEHYPEREDGES Extract true hyperedges for hyperedge prediction
 %
 % Auth: Joshua Pickard

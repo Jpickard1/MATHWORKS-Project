@@ -1,4 +1,4 @@
-function [F] = falseHyperedges(HGtrue, U, Vknown)
+function [F] = falseHyperedges(HGtrue, U)
 %FALSEHYPEREDGES Generate false hyperedges for hyperedge prediction
 %
 % Auth: Joshua Pickard
@@ -16,9 +16,11 @@ for i=1:length(U)
     n = round(alpha * length(e));
     v = randsample(1:length(e), n);
 
-    replacements = setdiff(Vknown, e);
+    replacements = setdiff(1:size(HG.IM, 1), e);
     for j=1:length(v)
         e(v(j)) = randsample(replacements, 1);
+        % TODO: make sure one vertex isn't inserted twice
+
     end
     F{i} = e;
 end
