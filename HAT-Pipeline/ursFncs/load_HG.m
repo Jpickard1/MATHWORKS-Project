@@ -3,15 +3,19 @@ function HG = load_HG(ds)
 %   Detailed explanation goes here
 
 % DS = {"DBLP", "Cora Reference", "Cora Citation", "Citeseer Reference", "Citeseer Citation"}
-DS = {'DBLP', 'Cora Reference', 'Cora Citation', 'Citeseer Reference', 'Citeseer Citation', 'ArnetMiner Citation', 'Oddysey'};
+DS = {'DBLP', 'Cora Reference', 'Cora Citation', 'Citeseer Reference', 'Citeseer Citation', 'ArnetMiner Citation', 'Oddysey', 'ER'};
 
 if ~any(strcmp(DS,ds))
     error('INVALID DATA SET: ' + ds)
 end
 
-S = HAT.load(ds);
-IM = full(S);
-HG = Hypergraph('IM', IM);
+if strcmp(ds, 'ER')
+    HG = HAT.uniformErdosRenyi(20,20,3);
+else
+    S = HAT.load(ds);
+    IM = full(S);
+    HG = Hypergraph('IM', IM);
+end
 
 end
 
